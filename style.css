@@ -32,5 +32,34 @@
 }
 
 .navbar ul li a:hover {
-    
+    background-color: black;
+    color: #03fc1c;
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    background-color: #5628a1;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    border: none;
+    align-items: center;
+}
+
+.headings{
+    font-family: century;
+    font-size: 3rem;
+    text-align: center;
+    margin: 40px 0px;
+}
+
+.imagem-perfil{
+    border-radius: 50%;
 }
