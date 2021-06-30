@@ -134,3 +134,14 @@ html {
     object-fit: contain;
 }
 
+@media screen and (max-width: 374px){
+    .navbar ul{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+}
+
+
+
+    
