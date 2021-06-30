@@ -63,3 +63,41 @@
 .imagem-perfil{
     border-radius: 50%;
 }
+
+#about{
+    display: flex;
+    flex-direction: column;
+    background-color: #5628a1;
+    color: white;
+    height: 300px;
+}
+
+.text-box{
+    border: 10px inset #6832a8;
+    padding: 20px;
+}
+
+.text{
+    font-family: sans-serif;
+    font-size: 1.1rem;
+    
+}
+
+#hobbies{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #5628a1;
+    color: white;
+    height: 600px;
+
+}
+
+.galeria{
+    display: flex;
+    justify-content: space-around;
+}
+
+.galeria img{
+    
+}
