@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+html {
+    
+    scroll-behavior: smooth;
+}
+
 .navbar {
     display: flex;
     justify-content: center;
@@ -32,8 +37,8 @@
 }
 
 .navbar ul li a:hover {
-    background-color: black;
-    color: #03fc1c;
+    background-color: #5628a1;
+    color: black;
 }
 
 #home {
@@ -73,7 +78,7 @@
 }
 
 .text-box{
-    border: 10px inset #6832a8;
+    border: 2px solid white;
     padding: 20px;
 }
 
@@ -89,15 +94,43 @@
     align-items: center;
     background-color: #5628a1;
     color: white;
-    height: 600px;
+    height: 700px;
 
 }
 
 .galeria{
     display: flex;
     justify-content: space-around;
+    padding: 40px;
 }
 
 .galeria img{
-    
+    width: 20%;
+    object-fit: cover;
 }
+
+#contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #5628a1;
+    color: white;
+    height: 360px;
+
+}
+
+.github {
+    color: white;
+    text-decoration: none;
+    font-family: century;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.git-logo{
+    height: 10%;
+    width: 10%;
+    object-fit: contain;
+}
+
