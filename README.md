@@ -1,5 +1,4 @@
 # Projeto IC - site
- Site responsivo
 
 
 ### Link para o site
